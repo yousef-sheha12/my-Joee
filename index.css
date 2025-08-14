@@ -69,6 +69,16 @@ section{
     
     
 }
+button {
+    display: flex;
+    flex-direction: column;  
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
 
 .myphoto{
     height: 100%;
@@ -96,6 +106,7 @@ h1{
 .button{
     display: flex;
     gap: 80px;
+    /* text-decoration: line-through; */
     
 } 
 .button .btn{ 
@@ -106,9 +117,10 @@ h1{
     color: white;
     font-size: 20px;
 }
-.button .btn:hover{
+button:hover{
     background-color: rgb(206, 197, 197);
     color: blue;
+    cursor: pointer;
 }
 
 
